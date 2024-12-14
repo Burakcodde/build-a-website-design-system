@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Sitem Stil Kılavuzu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Web Sitem Stil Kılavuzu</h1>
+
+    <section class="section" id="renkler">
+      <h2>Renkler</h2>
+      <div class="renk-paleti">
+        <div class="renk-karti">
+          <div class="renk-kutusu" style="background-color: #007bff"></div>
+          <div class="renk-bilgileri">
+            <h3>Ana Mavi</h3>
+            <p>#007bff</p>
+            <p>Genellikle butonlar ve bağlantılar için kullanılır.</p>
+          </div>
+        </div>
+
+        <div class="renk-karti">
+          <div class="renk-kutusu" style="background-color: #6c757d"></div>
+          <div class="renk-bilgileri">
+            <h3>İkincil Gri</h3>
+            <p>#6c757d</p>
+            <p>İkincil butonlar, metinler ve arkaplanlarda kullanılır.</p>
+          </div>
+        </div>
+
+        <div class="renk-karti">
+          <div class="renk-kutusu" style="background-color: #f8f9fa"></div>
+          <div class="renk-bilgileri">
+            <h3>Açık Gri (Arkaplan)</h3>
+            <p>#f8f9fa</p>
+            <p>Sayfa arkaplanı için kullanılır.</p>
+          </div>
+        </div>
+
+        <div class="renk-karti">
+          <div
+            class="renk-kutusu"
+            style="background-color: rgb(52, 58, 64)"
+          ></div>
+          <div class="renk-bilgileri">
+            <h3>Koyu Gri (Metin)</h3>
+            <p>rgb(52, 58, 64)</p>
+            <p>Metinler için kullanılır.</p>
+          </div>
+        </div>
+
+        <div class="renk-karti">
+          <div
+            class="renk-kutusu"
+            style="background-color: hsla(0, 0%, 100%, 1)"
+          ></div>
+          <div class="renk-bilgileri">
+            <h3>Beyaz</h3>
+            <p>hsla(0, 0%, 100%, 1)</p>
+            <p>Arka planlar ve metinler için kullanılır.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="yazi-tipleri">
+      <h2>Yazı Tipleri</h2>
+      <div class="yazi-tipi-karti">
+        <h3>Roboto</h3>
+        <div class="yazi-tipi-stili">
+          <p class="normal" style="font-family: 'Roboto', sans-serif">
+            Normal: Hızlı kahverengi tilki tembel köpeğin üzerinden atlar.
+          </p>
+          <p
+            class="kalin"
+            style="font-family: 'Roboto', sans-serif; font-weight: 700"
+          >
+            Kalın: Hızlı kahverengi tilki tembel köpeğin üzerinden atlar.
+          </p>
+          <p
+            class="italik"
+            style="font-family: 'Roboto', sans-serif; font-style: italic"
+          >
+            İtalik: Hızlı kahverengi tilki tembel köpeğin üzerinden atlar.
+          </p>
+          <p
+            class="kalin-italik"
+            style="
+              font-family: 'Roboto', sans-serif;
+              font-weight: 700;
+              font-style: italic;
+            "
+          >
+            Kalın İtalik: Hızlı kahverengi tilki tembel köpeğin üzerinden atlar.
+          </p>
+        </div>
+      </div>
+
+      <div class="yazi-tipi-karti">
+        <h3>Arial</h3>
+        <div class="yazi-tipi-stili">
+          <p class="normal" style="font-family: 'Arial', sans-serif">
+            Normal: Hızlı kahverengi tilki tembel köpeğin üzerinden atlar.
+          </p>
+          <p
+            class="kalin"
+            style="font-family: 'Arial', sans-serif; font-weight: bold"
+          >
+            Kalın: Hızlı kahverengi tilki tembel köpeğin üzerinden atlar.
+          </p>
+          <p
+            class="italik"
+            style="font-family: 'Arial', sans-serif; font-style: italic"
+          >
+            İtalik: Hızlı kahverengi tilki tembel köpeğin üzerinden atlar.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="metin-stilleri">
+      <h2>Metin Stilleri</h2>
+
+      <div class="metin-stili-karti">
+        <h3>Ana Başlık (H1)</h3>
+        <div class="stil-kurallari">
+          <p><strong>Yazı Tipi:</strong> Roboto</p>
+          <p><strong>Yazı Boyutu:</strong> 2.5em</p>
+          <p><strong>Yazı Ağırlığı:</strong> 700 (Kalın)</p>
+          <p><strong>Renk:</strong> #343a40</p>
+        </div>
+        <h1
+          style="
+            font-family: 'Roboto';
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #343a40;
+          "
+        >
+          Bu bir H1 başlığıdır.
+        </h1>
+      </div>
+
+      <div class="metin-stili-karti">
+        <h3>Alt Başlık (H2)</h3>
+        <div class="stil-kurallari">
+          <p><strong>Yazı Tipi:</strong> Roboto</p>
+          <p><strong>Yazı Boyutu:</strong> 2em</p>
+          <p><strong>Yazı Ağırlığı:</strong> 500</p>
+          <p><strong>Renk:</strong> #343a40</p>
+        </div>
+        <h2
+          style="
+            font-family: 'Roboto';
+            font-size: 2em;
+            font-weight: 500;
+            color: #343a40;
+          "
+        >
+          Bu bir H2 başlığıdır.
+        </h2>
+      </div>
+
+      <div class="metin-stili-karti">
+        <h3>Paragraf Metni (p)</h3>
+        <div class="stil-kurallari">
+          <p><strong>Yazı Tipi:</strong> Arial</p>
+          <p><strong>Yazı Boyutu:</strong> 1em</p>
+          <p><strong>Yazı Ağırlığı:</strong> 400 (Normal)</p>
+          <p><strong>Renk:</strong> #343a40</p>
+        </div>
+        <p style="font-family: 'Arial'; font-size: 1em; color: #343a40">
+          Bu bir paragraf metni örneğidir. Web sitemizin genel metinlerinde bu
+          stil kullanılacaktır.
+        </p>
+      </div>
+    </section>
+    <section class="section" id="ek-stiller">
+        <h2>Ek Stiller ve Düzenler</h2>
+
+        <div class="stil-ornegi">
+            <h3>Kutu Modeli</h3>
+            <div class="kutu-ornegi" style="width: 200px; height: 100px; background-color: #007bff; color: white; padding: 20px; border: 5px solid #343a40; margin: 30px;">
+                <p>İçerik</p>
+            </div>
+            <div class="stil-kurallari">
+              <p><strong>Genişlik:</strong> 200px</p>
+              <p><strong>Yükseklik:</strong> 100px</p>
+              <p><strong>Arka Plan Rengi:</strong> #007bff</p>
+              <p><strong>Metin Rengi:</strong> Beyaz</p>
+              <p><strong>İç Boşluk (Padding):</strong> 20px</p>
+              <p><strong>Kenarlık (Border):</strong> 5px solid #343a40</p>
+              <p><strong>Dış Boşluk (Margin):</strong> 30px</p>
+            </div>
+        </div>
+
+                <div class="stil-ornegi">
+            <h3>Gölge Efekti</h3>
+            <div class="golge-ornegi" style="width: 200px; height: 100px; background-color: white; box-shadow: 5px 5px 10px rgba(0,0,0,0.3);">
+                <p>Gölge Efekti</p>
+            </div>
+            <div class="stil-kurallari">
+              <p><strong>box-shadow:</strong> 5px 5px 10px rgba(0,0,0,0.3)</p>
+            </div>
+        </div>
+
+        <div class="stil-ornegi">
+            <h3>Yuvarlak Köşeler</h3>
+            <div class="yuvarlak-kose-ornegi" style="width: 200px; height: 100px; background-color: #6c757d; border-radius: 10px; color: white; display:flex; justify-content: center; align-items: center;">
+                <p>Yuvarlak Köşeler</p>
+            </div>
+            <div class="stil-kurallari">
+              <p><strong>border-radius:</strong> 10px</p>
+            </div>
+        </div>
+
+        <div class="stil-ornegi">
+            <h3>Buton Stili</h3>
+            <button class="stil-butonu" style="background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Buton</button>
+            <div class="stil-kurallari">
+                <p><strong>background-color:</strong> #007bff</p>
+                <p><strong>color:</strong> white</p>
+                <p><strong>padding:</strong> 10px 20px</p>
+                <p><strong>border:</strong> none</p>
+                <p><strong>border-radius:</strong> 5px</p>
+                <p><strong>cursor:</strong> pointer</p>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>

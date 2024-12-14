@@ -1,0 +1,132 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-size: 16px; /* Temel yazı boyutu */
+    line-height: 1.6; /* Satır yüksekliği (okunabilirlik için önemli) */
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: #004085; /* Daha koyu mavi */
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  h1 {
+      font-size: 2.5em;
+      margin-bottom: 1rem;
+  }
+  
+  h2 {
+      font-size: 2em;
+      margin-bottom: 1rem;
+  }
+  
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+      margin-bottom: 1rem; /* paragraflar arası boşluk */
+  }
+  
+  .section {
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .renk-paleti {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .renk-karti {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Hover efekti için geçiş */
+  }
+  
+  .renk-karti:hover {
+      transform: scale(1.05); /* Hover efekti */
+  }
+  
+  .renk-kutusu {
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .renk-bilgileri {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .yazi-tipi-karti {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .yazi-tipi-stili {
+    margin-top: 10px;
+  }
+  
+  .stil-ornegi {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      text-align: center;
+  }
+  
+  .stil-kurallari {
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .kutu-ornegi,
+  .golge-ornegi,
+  .yuvarlak-kose-ornegi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+      width: 200px; /* örneklerin aynı genişlikte olması için*/
+      height: 100px;
+  }
+  
+  .stil-butonu {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .stil-butonu:hover {
+      background-color: #0056b3;
+  }
